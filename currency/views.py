@@ -4,7 +4,7 @@ import currencyapicom
 
 
 def index_view(request):
-    client = currencyapicom.Client('cur_live_JOc99TWSODlJr3phUBFjiLzVcKBLcT5XaFej8sbu')
+    client = currencyapicom.Client('XXXX')
     result = client.latest()
     # print(result)
     print(result['data']['AZN'])
